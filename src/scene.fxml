@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller">
+   <children>
+      <TextField fx:id="fahrenheitTf" layoutX="48.0" layoutY="112.0" prefHeight="25.0" prefWidth="258.0" />
+      <Text layoutX="48.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature Converter" wrappingWidth="258.0">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Text>
+      <Label fx:id="fahrenheitLabel" layoutX="48.0" layoutY="92.0" prefHeight="22.0" prefWidth="100.0" text="Fahrenheit">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="celciusTf" layoutX="48.0" layoutY="112.0" prefHeight="25.0" prefWidth="258.0" />
+      <Label fx:id="celciusLabel" layoutX="48.0" layoutY="92.0" prefHeight="17.0" prefWidth="81.0" text="Celcius">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="resultTf" layoutX="48.0" layoutY="165.0" prefHeight="25.0" prefWidth="258.0" />
+      <Label layoutX="48.0" layoutY="145.0" prefHeight="17.0" prefWidth="81.0" text="Result">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="48.0" layoutY="229.0" mnemonicParsing="false" onAction="#convertBtn" prefHeight="25.0" prefWidth="258.0" text="Convert" />
+      <Button layoutX="224.0" layoutY="67.0" mnemonicParsing="false" onAction="#switchBtn" prefHeight="25.0" prefWidth="81.0" text="Switch" />
+   </children>
+</AnchorPane>
